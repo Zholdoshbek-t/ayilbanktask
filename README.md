@@ -46,4 +46,4 @@ mvn clean install
 java -jar target/task-0.0.1-SNAPSHOT.jar
 ```
 
-The application will be accessible at http://localhost:8080.
+Приложение будет доступно по адресу http://localhost:8080.
