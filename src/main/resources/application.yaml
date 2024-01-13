@@ -1,10 +1,23 @@
+# Конфигурация Spring Boot для работы с базой данных
+
 spring:
   datasource:
+    # URL для подключения к PostgreSQL базе данных на локальной машине
     url: jdbc:postgresql://localhost:5432/tasks
+
+    # Класс драйвера PostgreSQL для установки соединения
     driver-class-name: org.postgresql.Driver
+
+    # Имя пользователя для подключения к базе данных
     username: postgres
+
+    # Пароль пользователя для подключения к базе данных
     password: postgres
+
   jpa:
     hibernate:
+      # Стратегия создания таблиц в базе данных (в данном случае, создание таблиц)
       ddl-auto: create
+
+    # Вывод SQL-запросов Hibernate в логи (для отладки)
     show-sql: true

@@ -13,7 +13,7 @@
 - Java (JDK 17 or later)
 - Maven
 - Git
-- Postgresql
+- PostgreSQL
 - pgAdmin4
 
 ### Создаем новую базу данных
